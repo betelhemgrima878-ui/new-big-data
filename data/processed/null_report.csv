@@ -1,0 +1,27 @@
+column_name,null_count,total_rows,null_pct,fill_rule
+id,0,2124705,0.00,PRIMARY KEY - no fill
+case_number,0,2124705,0.00,NOT NULL
+date,312,2124705,0.01,NOT NULL - rows with unparseable dates
+block,8934,2124705,0.42,left as NULL (not critical)
+iucr,0,2124705,0.00,filled with Unknown
+primary_type,0,2124705,0.00,filled with Unknown
+description,0,2124705,0.00,filled with Unknown
+location_description,0,2124705,0.00,filled with Unknown
+arrest,0,2124705,0.00,filled with False
+domestic,0,2124705,0.00,filled with False
+beat,0,2124705,0.00,filled with 0
+district,0,2124705,0.00,filled with 0
+ward,12456,2124705,0.59,filled with 0
+community_area,10234,2124705,0.48,filled with 0
+fbi_code,0,2124705,0.00,filled with Unknown
+x_coordinate,56234,2124705,2.65,left as NULL (geo optional)
+y_coordinate,56234,2124705,2.65,left as NULL (geo optional)
+latitude,56234,2124705,2.65,left as NULL (geo optional)
+longitude,56234,2124705,2.65,left as NULL (geo optional)
+location,56234,2124705,2.65,left as NULL (geo optional)
+year,0,2124705,0.00,filled with 0
+updated_on,0,2124705,0.00,parsed from string
+day_of_week,312,2124705,0.01,derived from date (NULL where date is NULL)
+month,312,2124705,0.01,derived from date (NULL where date is NULL)
+hour,312,2124705,0.01,derived from date (NULL where date is NULL)
+inserted_at,0,2124705,0.00,set by PostgreSQL DEFAULT NOW()

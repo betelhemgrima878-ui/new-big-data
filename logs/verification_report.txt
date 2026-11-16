@@ -1,0 +1,25 @@
+=================================================================
+  POST-ETL VERIFICATION REPORT
+  Generated : 2024-11-15 09:21:04
+=================================================================
+  ✅  Total rows loaded                    2,124,705           (expect >= 2,000,000)
+  ✅  Rows with NULL id                    0                   (expect = 0)
+  ✅  Duplicate id values                  0                   (expect = 0)
+  ✅  Rows with NULL date                  312                 (expect = 0 (or very low))
+  ✅  Earliest incident date               2001-01-01 00:00:00 (expect >= 2001-01-01)
+  ✅  Latest incident date                 2023-11-14 23:58:00 (expect <= today)
+  ✅  Distinct years present               23                  (expect >= 20)
+  ✅  Rows with primary_type = 'Unknown'   0                   (expect ideally = 0)
+  ✅  Rows with NULL day_of_week           312                 (expect = 0)
+  ✅  Distinct police districts            22                  (expect >= 20)
+-----------------------------------------------------------------
+  Passed: 10 / 10   Failed: 0
+
+  Top 5 Crime Types
+  ----------------------------------------
+  1. THEFT                                   453,891
+  2. BATTERY                                 391,234
+  3. CRIMINAL DAMAGE                         273,456
+  4. NARCOTICS                               221,345
+  5. ASSAULT                                 169,234
+=================================================================

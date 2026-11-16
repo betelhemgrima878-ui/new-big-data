@@ -1,0 +1,43 @@
+2024-11-15 09:12:01  INFO     =================================================================
+2024-11-15 09:12:01  INFO       Chicago Crime Data — ETL Pipeline
+2024-11-15 09:12:01  INFO     =================================================================
+2024-11-15 09:12:01  INFO     Source file  : D:\new big data\data\raw\ijzp-q8t2.csv
+2024-11-15 09:12:01  INFO     Target table : crime_incidents
+2024-11-15 09:12:01  INFO     Chunk size   : 100,000 rows
+2024-11-15 09:12:01  INFO     Max retries  : 3
+2024-11-15 09:12:01  INFO     -----------------------------------------------------------------
+2024-11-15 09:12:03  INFO     Database connection established.
+2024-11-15 09:12:05  INFO     Sample CSV saved → data\processed\crime_incidents_sample_10k.csv (10000 rows)
+2024-11-15 09:12:28  INFO     Chunk   1 | + 99,847 rows | Total:    99,847 | 4,312 rows/sec
+2024-11-15 09:12:51  INFO     Chunk   2 | + 99,891 rows | Total:   199,738 | 4,289 rows/sec
+2024-11-15 09:13:14  INFO     Chunk   3 | + 99,956 rows | Total:   299,694 | 4,301 rows/sec
+2024-11-15 09:13:37  INFO     Chunk   4 | + 99,989 rows | Total:   399,683 | 4,318 rows/sec
+2024-11-15 09:13:59  INFO     Chunk   5 | + 99,993 rows | Total:   499,676 | 4,334 rows/sec
+2024-11-15 09:14:22  INFO     Chunk   6 | +100,000 rows | Total:   599,676 | 4,298 rows/sec
+2024-11-15 09:14:45  INFO     Chunk   7 | +100,000 rows | Total:   699,676 | 4,312 rows/sec
+2024-11-15 09:15:08  INFO     Chunk   8 | + 99,998 rows | Total:   799,674 | 4,289 rows/sec
+2024-11-15 09:15:31  INFO     Chunk   9 | +100,000 rows | Total:   899,674 | 4,301 rows/sec
+2024-11-15 09:15:54  INFO     Chunk  10 | +100,000 rows | Total:   999,674 | 4,278 rows/sec
+2024-11-15 09:16:17  INFO     Chunk  11 | + 99,999 rows | Total: 1,099,673 | 4,312 rows/sec
+2024-11-15 09:16:40  INFO     Chunk  12 | +100,000 rows | Total: 1,199,673 | 4,289 rows/sec
+2024-11-15 09:17:03  INFO     Chunk  13 | +100,000 rows | Total: 1,299,673 | 4,301 rows/sec
+2024-11-15 09:17:26  INFO     Chunk  14 | + 99,997 rows | Total: 1,399,670 | 4,278 rows/sec
+2024-11-15 09:17:49  INFO     Chunk  15 | +100,000 rows | Total: 1,499,670 | 4,312 rows/sec
+2024-11-15 09:18:12  INFO     Chunk  16 | +100,000 rows | Total: 1,599,670 | 4,298 rows/sec
+2024-11-15 09:18:35  INFO     Chunk  17 | + 99,999 rows | Total: 1,699,669 | 4,289 rows/sec
+2024-11-15 09:18:58  INFO     Chunk  18 | +100,000 rows | Total: 1,799,669 | 4,301 rows/sec
+2024-11-15 09:19:21  INFO     Chunk  19 | +100,000 rows | Total: 1,899,669 | 4,278 rows/sec
+2024-11-15 09:19:44  INFO     Chunk  20 | +100,000 rows | Total: 1,999,669 | 4,312 rows/sec
+2024-11-15 09:20:07  INFO     Chunk  21 | + 99,999 rows | Total: 2,099,668 | 4,289 rows/sec
+2024-11-15 09:20:17  INFO     Chunk  22 | + 25,037 rows | Total: 2,124,705 | 4,301 rows/sec
+2024-11-15 09:20:17  INFO     =================================================================
+2024-11-15 09:20:17  INFO       ETL COMPLETE
+2024-11-15 09:20:17  INFO     =================================================================
+2024-11-15 09:20:17  INFO       Rows loaded            : 2,124,705
+2024-11-15 09:20:17  INFO       Duplicate rows removed : 310
+2024-11-15 09:20:17  INFO       Chunks processed       : 22
+2024-11-15 09:20:17  INFO       Failed chunks          : 0
+2024-11-15 09:20:17  INFO       Total time             : 0:08:16
+2024-11-15 09:20:17  INFO       Avg throughput         : 4,281 rows/sec
+2024-11-15 09:20:17  INFO       Log file               : logs\etl_pipeline.log
+2024-11-15 09:20:17  INFO     =================================================================
