@@ -635,8 +635,11 @@ The pipeline has per-chunk retry logic (up to 3 attempts with exponential back-o
 | Name | 
 |------|
 | Betelhem Grima |
-| Bethel Mesfi |
+| Bethel Mesfin |
 | Kalikdan Almhayehu |
+| Sara Abebaw |
+| Elham Abdu |
+
 
 ---
 
