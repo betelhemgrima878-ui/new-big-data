@@ -632,13 +632,14 @@ The pipeline has per-chunk retry logic (up to 3 attempts with exponential back-o
 
 ## 17. Authors
 
-| Name | 
+| Name  id | 
 |------|
 | Betelhem Grima |
 | Bethel Mesfin |
 | Kalikdan Almhayehu |
 | Sara Abebaw |
 | Elham Abdu |
+| Hermela Getahun
 
 
 ---
