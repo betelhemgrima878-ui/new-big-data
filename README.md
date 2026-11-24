@@ -498,7 +498,7 @@ Crime volume peaked around **2002** and has shown a general declining trend over
 
 ## 14. Troubleshooting
 
-### "Cannot connect to PostgreSQL"
+
 
 ```
 [ERROR] Cannot connect to PostgreSQL: could not connect to server
@@ -612,7 +612,7 @@ Pre-computing them at load time avoids running `EXTRACT(hour FROM date)` across 
 **Q: How long does the full ETL take?**
 Approximately **8–15 minutes** on a modern laptop with an SSD. The pipeline prints rows/sec throughput so you can track progress live.
 
----
+
 
 **Q: What if the ETL crashes halfway through?**
 The pipeline has per-chunk retry logic (up to 3 attempts with exponential back-off). If it still fails, check `logs/etl_pipeline.log`, fix the problem, truncate the table, and re-run. The pipeline processes chunks independently so a crash does not corrupt already-loaded data.
